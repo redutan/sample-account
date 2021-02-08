@@ -10,4 +10,9 @@ public class MainController {
     public String helloworld() {
         return "Hello Account!";
     }
+
+    @GetMapping("/account/helloworld")
+    public String helloworld2() {
+        return "Hello Account2!";
+    }
 }
